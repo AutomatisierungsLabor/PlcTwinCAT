@@ -1,45 +1,14 @@
 ﻿{
     "PlcProjektliste": [
         {
-            "Bezeichnung": "Linearachse",
+            "Bezeichnung": "Getriebemotor",
             "Kommentar": "Übungsplatte",
             "SoftwareVersion": "TwinCatV3",
-            "OrdnerPlc": "DELTA_PLC_CFC_Linearachse",
-            "OrdnerDigitalTwin": "Linearachse",
+            "OrdnerPlc": "DELTA_TEST_PLC_ST_Getriebemotor",
+            "OrdnerDigitalTwin": "Getriebemotor",
             "OrdnerFactoryIo": "",
 			"OrdnerTemplate": "DELTA_Template_Plc",
             "Sprache": "St",
-            "Kategorie": "Plc",
-            "Jobs": [
-                "SorceOrdnerErstellen",
-                "TemplateOrdnerKopieren",
-				"DiffOrdnerKopieren",
-                "CmdDateiProjektStarten",
-                "DigitalTwinKopieren",
-                "DigitalTwinStartenBeckhoff"
-            ]
-        }, 
-        {
-            "Bezeichnung": "Getriebemotor",
-            "Kommentar": "Übungsplatte",
-            "SoftwareVersion": "TwinCatV3",
-            "OrdnerPlc": "PLC_CFC_Geriebemotor",
-            "OrdnerDigitalTwin": "",
-            "Sprache": "Cfc",
-            "Kategorie": "Plc",
-            "Jobs": [
-                "SorceOrdnerErstellen",
-                "ProjektKopieren",
-                "CmdDateiProjektStarten"
-            ]
-        },
-        {
-            "Bezeichnung": "Getriebemotor",
-            "Kommentar": "Übungsplatte",
-            "SoftwareVersion": "TwinCatV3",
-            "OrdnerPlc": "PLC_KOP_Getriebemotor",
-            "OrdnerDigitalTwin": "",
-            "Sprache": "Kop",
             "Kategorie": "AutoTests",
             "Jobs": [
                 "SorceOrdnerErstellen",
@@ -54,8 +23,10 @@
             "Bezeichnung": "Linearachse",
             "Kommentar": "Übungsplatte",
             "SoftwareVersion": "TwinCatV3",
-            "OrdnerPlc": "PLC_ST_Linearachse",
-            "OrdnerDigitalTwin": "",
+            "OrdnerPlc": "DELTA_TEST_PLC_ST_Linearachse",
+            "OrdnerDigitalTwin": "Linearachse",
+            "OrdnerFactoryIo": "",
+			"OrdnerTemplate": "DELTA_Template_Plc",
             "Sprache": "St",
             "Kategorie": "AutoTests",
             "Jobs": [

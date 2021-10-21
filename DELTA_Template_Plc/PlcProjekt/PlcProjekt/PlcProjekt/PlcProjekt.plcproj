@@ -13,8 +13,29 @@
     <Implicit_KindOfTask>{14f949ea-4ee1-4b65-a1de-6c9f71ba476c}</Implicit_KindOfTask>
     <Implicit_Jitter_Distribution>{54733d12-20c7-4489-9ccd-b739d00fa58d}</Implicit_Jitter_Distribution>
     <LibraryReferences>{a3f1687d-fb1a-4d5b-ae1f-d08fbb4978a2}</LibraryReferences>
+    <AutoUpdateUmlProfile>true</AutoUpdateUmlProfile>
   </PropertyGroup>
   <ItemGroup>
+    <Compile Include="GVLs\Plc_AN.TcGVL">
+      <SubType>Code</SubType>
+      <LinkAlways>true</LinkAlways>
+    </Compile>
+    <Compile Include="GVLs\Plc_DIO.TcGVL">
+      <SubType>Code</SubType>
+      <LinkAlways>true</LinkAlways>
+    </Compile>
+    <Compile Include="GVLs\Plc_dSub.TcGVL">
+      <SubType>Code</SubType>
+      <LinkAlways>true</LinkAlways>
+    </Compile>
+    <Compile Include="GVLs\SimAA.TcGVL">
+      <SubType>Code</SubType>
+      <LinkAlways>true</LinkAlways>
+    </Compile>
+    <Compile Include="GVLs\SimAI.TcGVL">
+      <SubType>Code</SubType>
+      <LinkAlways>true</LinkAlways>
+    </Compile>
     <Compile Include="GVLs\SimDI.TcGVL">
       <SubType>Code</SubType>
       <LinkAlways>true</LinkAlways>
@@ -93,6 +114,12 @@
       <DefaultResolution>Tc3_Module, * (Beckhoff Automation GmbH)</DefaultResolution>
       <Namespace>Tc3_Module</Namespace>
     </PlaceholderReference>
+    <PlaceholderReference Include="UML State Chart Types">
+      <DefaultResolution>UML Statechart Types, 4.0.2.1 (3S - Smart Software Solutions GmbH)</DefaultResolution>
+      <Namespace>UML_SC</Namespace>
+      <SystemLibrary>true</SystemLibrary>
+      <ResolverGuid>d9a6b70a-92f0-4827-8ca3-8ce8a61652d9</ResolverGuid>
+    </PlaceholderReference>
   </ItemGroup>
   <ItemGroup>
     <None Include="PlcProjekt.tmc">
@@ -119,7 +146,10 @@
         <o>
           <v n="Name">"{192FAD59-8248-4824-A8DE-9177C94C195A}"</v>
           <d n="SubKeys" t="Hashtable" />
-          <d n="Values" t="Hashtable" />
+          <d n="Values" t="Hashtable" ckt="String" cvt="String">
+            <v>CurrentUmlCompilerVersion</v>
+            <v>4.0.2.1</v>
+          </d>
         </o>
       </d>
       <d n="Values" t="Hashtable" />
