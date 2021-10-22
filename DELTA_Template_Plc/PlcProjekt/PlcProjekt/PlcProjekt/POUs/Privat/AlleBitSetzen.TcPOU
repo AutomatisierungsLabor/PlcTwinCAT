@@ -28,12 +28,5 @@ IF B7 THEN AlleBitSetzen := 2#0100_0000 + AlleBitSetzen; END_IF;
 IF B8 THEN AlleBitSetzen := 2#1000_0000 + AlleBitSetzen; END_IF;
 ]]></ST>
     </Implementation>
-    <LineIds Name="AlleBitSetzen">
-      <LineId Id="7" Count="0" />
-      <LineId Id="18" Count="0" />
-      <LineId Id="17" Count="0" />
-      <LineId Id="20" Count="6" />
-      <LineId Id="19" Count="0" />
-    </LineIds>
   </POU>
 </TcPlcObject>

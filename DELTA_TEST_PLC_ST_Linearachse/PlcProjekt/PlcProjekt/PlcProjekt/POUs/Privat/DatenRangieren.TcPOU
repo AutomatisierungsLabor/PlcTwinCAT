@@ -58,20 +58,5 @@ ELSE	// Simulation (Digital Twin) verwenden
 										*)
 END_IF]]></ST>
     </Implementation>
-    <LineIds Name="DatenRangieren">
-      <LineId Id="5" Count="0" />
-      <LineId Id="55" Count="0" />
-      <LineId Id="57" Count="0" />
-      <LineId Id="109" Count="12" />
-      <LineId Id="133" Count="0" />
-      <LineId Id="122" Count="6" />
-      <LineId Id="68" Count="0" />
-      <LineId Id="60" Count="0" />
-      <LineId Id="134" Count="0" />
-      <LineId Id="89" Count="19" />
-      <LineId Id="72" Count="0" />
-      <LineId Id="136" Count="0" />
-      <LineId Id="59" Count="0" />
-    </LineIds>
   </POU>
 </TcPlcObject>

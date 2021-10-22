@@ -24,15 +24,5 @@ ELSE	// Simulation (Digital Twin) verwenden
 										FALSE, FALSE,  FALSE, FALSE);
 END_IF]]></ST>
     </Implementation>
-    <LineIds Name="DatenRangieren">
-      <LineId Id="5" Count="0" />
-      <LineId Id="55" Count="0" />
-      <LineId Id="57" Count="0" />
-      <LineId Id="68" Count="0" />
-      <LineId Id="60" Count="0" />
-      <LineId Id="186" Count="8" />
-      <LineId Id="136" Count="0" />
-      <LineId Id="156" Count="0" />
-    </LineIds>
   </POU>
 </TcPlcObject>

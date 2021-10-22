@@ -19,9 +19,5 @@ Timer_1_25Hz(IN:= NOT Timer_1_25Hz.Q, PT:= T#800MS);
 Blinker.Clock_1_25Hz:= Timer_1_25Hz.ET < T#400MS;
 ]]></ST>
     </Implementation>
-    <LineIds Name="SystemFunktionen">
-      <LineId Id="9" Count="0" />
-      <LineId Id="12" Count="1" />
-    </LineIds>
   </POU>
 </TcPlcObject>

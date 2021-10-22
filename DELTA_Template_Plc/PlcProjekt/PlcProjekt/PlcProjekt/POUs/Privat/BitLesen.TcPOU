@@ -19,13 +19,5 @@ ELSE
 	BitLesen:= FALSE;	
 END_IF;]]></ST>
     </Implementation>
-    <LineIds Name="BitLesen">
-      <LineId Id="7" Count="0" />
-      <LineId Id="65" Count="0" />
-      <LineId Id="71" Count="0" />
-      <LineId Id="66" Count="0" />
-      <LineId Id="70" Count="0" />
-      <LineId Id="67" Count="0" />
-    </LineIds>
   </POU>
 </TcPlcObject>
