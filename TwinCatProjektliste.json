@@ -1,5 +1,22 @@
 ﻿{
     "PlcProjektliste": [
+	 {
+            "Bezeichnung": "Getriebemotor",
+            "Kommentar": "Übungsplatte",
+            "SoftwareVersion": "TwinCatV3",
+            "OrdnerPlc": "DELTA_VISU_PLC_ST_Getriebemotor",
+            "OrdnerDigitalTwin": "Getriebemotor",
+            "OrdnerFactoryIo": "",
+			"OrdnerTemplate": "DELTA_Template_Plc",
+            "Sprache": "St",
+            "Kategorie": "Visu",
+            "Jobs": [
+                "SorceOrdnerErstellen",
+                "TemplateOrdnerKopieren",
+				"DiffOrdnerKopieren",
+                "CmdDateiProjektStarten"
+            ]
+        },
         {
             "Bezeichnung": "Getriebemotor",
             "Kommentar": "Übungsplatte",

@@ -24,14 +24,14 @@ SimDI.S8 := BitLesen(Plc_dSub.DI_LowByte,7);
 SimDI.S91 := BitLesen(Plc_dSub.DI_HighByte,0);
 SimDI.S92 := BitLesen(Plc_dSub.DI_HighByte,1);
 
-DigOutput.DA[0] := AlleBitSetzen(	SimDa.Q1,
-									SimDa.Q2,
-									SimDa.Q3,
-									FALSE,
-									SimDa.P1,	
-									SimDa.P2,	
-									SimDa.P3,										
-									FALSE);	
+Plc_dSub.DQ_LowByte := AlleBitSetzen(	SimDa.Q1,
+										SimDa.Q2,
+										SimDa.Q3,
+										FALSE,
+										SimDa.P1,	
+										SimDa.P2,	
+										SimDa.P3,										
+										FALSE);	
 ELSE
 	// Simulation (Digital Twin) verwenden
 SimDI.B1 := BitLesen(DigInput.DI[1],2);
