@@ -1,153 +1,318 @@
 ﻿{
     "PlcProjektliste": [
-	 {
-            "Bezeichnung": "Getriebemotor",
-            "Kommentar": "Übungsplatte",
+        {
+            "Bezeichnung": "DigitalTwin",
+            "Kommentar": "Blinklicht Fibonacci",
             "SoftwareVersion": "TwinCatV3",
-            "OrdnerPlc": "DELTA_VISU_PLC_ST_Getriebemotor",
+            "OrdnerPlc": "DELTA_TEST_ST_Blinklicht_Fibonacci",
+            "OrdnerDigitalTwin": "Blinklicht_Fibonacci",
+            "OrdnerFactoryIo": "",
+            "OrdnerTemplate": "DELTA_Template_Plc",
+            "Sprache": "St",
+            "Kategorie": "AutoTests",
+            "Jobs": [
+                "SorceOrdnerErstellen",
+                "TemplateOrdnerKopieren",
+                "DiffOrdnerKopieren",
+                "CmdDateiProjektStarten",
+                "DigitalTwinKopieren",
+                "DigitalTwinStarten"
+            ]
+        },
+        {
+            "Bezeichnung": "DigitalTwin",
+            "Kommentar": "Kata",
+            "SoftwareVersion": "TwinCatV3",
+            "OrdnerPlc": "DELTA_TEST_ST_Kara",
+            "OrdnerDigitalTwin": "Kata",
+            "OrdnerFactoryIo": "",
+            "OrdnerTemplate": "DELTA_Template_Plc",
+            "Sprache": "St",
+            "Kategorie": "AutoTests",
+            "Jobs": [
+                "SorceOrdnerErstellen",
+                "TemplateOrdnerKopieren",
+                "DiffOrdnerKopieren",
+                "CmdDateiProjektStarten",
+                "DigitalTwinKopieren",
+                "DigitalTwinStarten"
+            ]
+        },
+        {
+            "Bezeichnung": "DigitalTwin",
+            "Kommentar": "Nadeltelegraph",
+            "SoftwareVersion": "TwinCatV3",
+            "OrdnerPlc": "DELTA_TEST_ST_Nadeltelegraph",
+            "OrdnerDigitalTwin": "Nadeltelegraph",
+            "OrdnerFactoryIo": "",
+            "OrdnerTemplate": "DELTA_Template_Plc",
+            "Sprache": "St",
+            "Kategorie": "AutoTests",
+            "Jobs": [
+                "SorceOrdnerErstellen",
+                "TemplateOrdnerKopieren",
+                "DiffOrdnerKopieren",
+                "CmdDateiProjektStarten"
+            ]
+        },
+        {
+            "Bezeichnung": "DigitalTwin",
+            "Kommentar": "Parkhaus",
+            "SoftwareVersion": "TwinCatV3",
+            "OrdnerPlc": "DELTA_TEST_ST_Parkhaus",
+            "OrdnerDigitalTwin": "Parkhaus",
+            "OrdnerFactoryIo": "",
+            "OrdnerTemplate": "DELTA_Template_Plc",
+            "Sprache": "St",
+            "Kategorie": "AutoTests",
+            "Jobs": [
+                "SorceOrdnerErstellen",
+                "TemplateOrdnerKopieren",
+                "DiffOrdnerKopieren",
+                "CmdDateiProjektStarten"
+            ]
+        },
+        {
+            "Bezeichnung": "DigitalTwin",
+            "Kommentar": "Schleifmaschine",
+            "SoftwareVersion": "TwinCatV3",
+            "OrdnerPlc": "DELTA_TEST_ST_Schleifmaschine",
+            "OrdnerDigitalTwin": "Schleifmaschine",
+            "OrdnerFactoryIo": "",
+            "OrdnerTemplate": "DELTA_Template_Plc",
+            "Sprache": "St",
+            "Kategorie": "AutoTests",
+            "Jobs": [
+                "SorceOrdnerErstellen",
+                "TemplateOrdnerKopieren",
+                "DiffOrdnerKopieren",
+                "CmdDateiProjektStarten"
+            ]
+        },
+        {
+            "Bezeichnung": "LAP_2010_1",
+            "Kommentar": "Kompressoranlage",
+            "SoftwareVersion": "TwinCatV3",
+            "OrdnerPlc": "DELTA_TEST_ST_LAP_2010_1_Kompressoranlage",
+            "OrdnerDigitalTwin": "LAP_2010_1_Kompressoranlage",
+            "OrdnerFactoryIo": "",
+            "OrdnerTemplate": "DELTA_Template_Plc",
+            "Sprache": "St",
+            "Kategorie": "AutoTests",
+            "Jobs": [
+                "SorceOrdnerErstellen",
+                "TemplateOrdnerKopieren",
+                "DiffOrdnerKopieren",
+                "CmdDateiProjektStarten",
+                "DigitalTwinKopieren",
+                "DigitalTwinStarten"
+            ]
+        },
+        {
+            "Bezeichnung": "LAP_2010_2",
+            "Kommentar": "Transportwagen",
+            "SoftwareVersion": "TwinCatV3",
+            "OrdnerPlc": "DELTA_TEST_ST_LAP_2010_2_Transportwagen",
+            "OrdnerDigitalTwin": "LAP_2010_2_Transportwagen",
+            "OrdnerFactoryIo": "",
+            "OrdnerTemplate": "DELTA_Template_Plc",
+            "Sprache": "St",
+            "Kategorie": "AutoTests",
+            "Jobs": [
+                "SorceOrdnerErstellen",
+                "TemplateOrdnerKopieren",
+                "DiffOrdnerKopieren",
+                "CmdDateiProjektStarten",
+                "DigitalTwinKopieren",
+                "DigitalTwinStarten"
+            ]
+        },
+        {
+            "Bezeichnung": "LAP_2010_3",
+            "Kommentar": "Ofentuersteuerung",
+            "SoftwareVersion": "TwinCatV3",
+            "OrdnerPlc": "DELTA_TEST_ST_LAP_2010_3_Ofentuersteuerung",
+            "OrdnerDigitalTwin": "LAP_2010_3_Ofentuersteuerung",
+            "OrdnerFactoryIo": "",
+            "OrdnerTemplate": "DELTA_Template_Plc",
+            "Sprache": "St",
+            "Kategorie": "AutoTests",
+            "Jobs": [
+                "SorceOrdnerErstellen",
+                "TemplateOrdnerKopieren",
+                "DiffOrdnerKopieren",
+                "CmdDateiProjektStarten",
+                "DigitalTwinKopieren",
+                "DigitalTwinStarten"
+            ]
+        },
+        {
+            "Bezeichnung": "LAP_2010_4",
+            "Kommentar": "Abfuellanlage",
+            "SoftwareVersion": "TwinCatV3",
+            "OrdnerPlc": "DELTA_TEST_ST_LAP_2010_4_Abfuellanlage",
+            "OrdnerDigitalTwin": "LAP_2010_4_Abfuellanlage",
+            "OrdnerFactoryIo": "",
+            "OrdnerTemplate": "DELTA_Template_Plc",
+            "Sprache": "St",
+            "Kategorie": "AutoTests",
+            "Jobs": [
+                "SorceOrdnerErstellen",
+                "TemplateOrdnerKopieren",
+                "DiffOrdnerKopieren",
+                "CmdDateiProjektStarten",
+                "DigitalTwinKopieren",
+                "DigitalTwinStarten"
+            ]
+        },
+        {
+            "Bezeichnung": "LAP_2010_5",
+            "Kommentar": "Pumpensteuerung",
+            "SoftwareVersion": "TwinCatV3",
+            "OrdnerPlc": "DELTA_TEST_ST_LAP_2010_5_Pumpensteuerung",
+            "OrdnerDigitalTwin": "LAP_2010_5_Pumpensteuerung",
+            "OrdnerFactoryIo": "",
+            "OrdnerTemplate": "DELTA_Template_Plc",
+            "Sprache": "St",
+            "Kategorie": "AutoTests",
+            "Jobs": [
+                "SorceOrdnerErstellen",
+                "TemplateOrdnerKopieren",
+                "DiffOrdnerKopieren",
+                "CmdDateiProjektStarten",
+                "DigitalTwinKopieren",
+                "DigitalTwinStarten"
+            ]
+        },
+        {
+            "Bezeichnung": "LAP_2018_1",
+            "Kommentar": "Silosteuerung",
+            "SoftwareVersion": "TwinCatV3",
+            "OrdnerPlc": "DELTA_TEST_ST_LAP_2018_1_Silosteuerung",
+            "OrdnerDigitalTwin": "LAP_2018_1_Silosteuerung",
+            "OrdnerFactoryIo": "",
+            "OrdnerTemplate": "DELTA_Template_Plc",
+            "Sprache": "St",
+            "Kategorie": "AutoTests",
+            "Jobs": [
+                "SorceOrdnerErstellen",
+                "TemplateOrdnerKopieren",
+                "DiffOrdnerKopieren",
+                "CmdDateiProjektStarten",
+                "DigitalTwinKopieren",
+                "DigitalTwinStarten"
+            ]
+        },
+        {
+            "Bezeichnung": "LAP_2018_2",
+            "Kommentar": "Abfuellanlage",
+            "SoftwareVersion": "TwinCatV3",
+            "OrdnerPlc": "DELTA_TEST_ST_LAP_2018_2_Abfuellanlage",
+            "OrdnerDigitalTwin": "LAP_2018_2_Abfuellanlage",
+            "OrdnerFactoryIo": "",
+            "OrdnerTemplate": "DELTA_Template_Plc",
+            "Sprache": "St",
+            "Kategorie": "AutoTests",
+            "Jobs": [
+                "SorceOrdnerErstellen",
+                "TemplateOrdnerKopieren",
+                "DiffOrdnerKopieren",
+                "CmdDateiProjektStarten",
+                "DigitalTwinKopieren",
+                "DigitalTwinStarten"
+            ]
+        },
+        {
+            "Bezeichnung": "LAP_2018_3",
+            "Kommentar": "Hydraulikaggregat",
+            "SoftwareVersion": "TwinCatV3",
+            "OrdnerPlc": "DELTA_TEST_ST_LAP_2018_3_Hydraulikaggregat",
+            "OrdnerDigitalTwin": "LAP_2018_3_Hydraulikaggregat",
+            "OrdnerFactoryIo": "",
+            "OrdnerTemplate": "DELTA_Template_Plc",
+            "Sprache": "St",
+            "Kategorie": "AutoTests",
+            "Jobs": [
+                "SorceOrdnerErstellen",
+                "TemplateOrdnerKopieren",
+                "DiffOrdnerKopieren",
+                "CmdDateiProjektStarten",
+                "DigitalTwinKopieren",
+                "DigitalTwinStarten"
+            ]
+        },
+        {
+            "Bezeichnung": "LAP_2018_4",
+            "Kommentar": "Niveauregelung",
+            "SoftwareVersion": "TwinCatV3",
+            "OrdnerPlc": "DELTA_TEST_ST_LAP_2018_4_Niveauregelung",
+            "OrdnerDigitalTwin": "LAP_2018_4_Niveauregelung",
+            "OrdnerFactoryIo": "",
+            "OrdnerTemplate": "DELTA_Template_Plc",
+            "Sprache": "St",
+            "Kategorie": "AutoTests",
+            "Jobs": [
+                "SorceOrdnerErstellen",
+                "TemplateOrdnerKopieren",
+                "DiffOrdnerKopieren",
+                "CmdDateiProjektStarten",
+                "DigitalTwinKopieren",
+                "DigitalTwinStarten"
+            ]
+        },
+        {
+            "Bezeichnung": "Übungsplatte",
+            "Kommentar": "Linearachse",
+            "SoftwareVersion": "TwinCatV3",
+            "OrdnerPlc": "DELTA_TEST_ST_Linearachse",
+            "OrdnerDigitalTwin": "Linearachse",
+            "OrdnerFactoryIo": "",
+            "OrdnerTemplate": "DELTA_Template_Plc",
+            "Sprache": "St",
+            "Kategorie": "AutoTests",
+            "Jobs": [
+                "SorceOrdnerErstellen",
+                "TemplateOrdnerKopieren",
+                "DiffOrdnerKopieren",
+                "CmdDateiProjektStarten",
+                "DigitalTwinKopieren",
+                "DigitalTwinStarten"
+            ]
+        },
+        {
+            "Bezeichnung": "Übungsplatte",
+            "Kommentar": "Getriebemotor",
+            "SoftwareVersion": "TwinCatV3",
+            "OrdnerPlc": "DELTA_TEST_ST_Getriebemotor",
             "OrdnerDigitalTwin": "Getriebemotor",
             "OrdnerFactoryIo": "",
-			"OrdnerTemplate": "DELTA_Template_Plc",
+            "OrdnerTemplate": "DELTA_Template_Plc",
+            "Sprache": "St",
+            "Kategorie": "AutoTests",
+            "Jobs": [
+                "SorceOrdnerErstellen",
+                "TemplateOrdnerKopieren",
+                "DiffOrdnerKopieren",
+                "CmdDateiProjektStarten",
+                "DigitalTwinKopieren",
+                "DigitalTwinStarten"
+            ]
+        },
+        {
+            "Bezeichnung": "Übungsplatte",
+            "Kommentar": "Getriebemotor",
+            "SoftwareVersion": "TwinCatV3",
+            "OrdnerPlc": "DELTA_VISU_ST_Getriebemotor",
+            "OrdnerDigitalTwin": "Getriebemotor",
+            "OrdnerFactoryIo": "",
+            "OrdnerTemplate": "DELTA_Template_Plc",
             "Sprache": "St",
             "Kategorie": "Visu",
             "Jobs": [
                 "SorceOrdnerErstellen",
                 "TemplateOrdnerKopieren",
-				"DiffOrdnerKopieren",
+                "DiffOrdnerKopieren",
                 "CmdDateiProjektStarten"
-            ]
-        },
-        {
-            "Bezeichnung": "Getriebemotor",
-            "Kommentar": "Übungsplatte",
-            "SoftwareVersion": "TwinCatV3",
-            "OrdnerPlc": "DELTA_TEST_PLC_ST_Getriebemotor",
-            "OrdnerDigitalTwin": "Getriebemotor",
-            "OrdnerFactoryIo": "",
-			"OrdnerTemplate": "DELTA_Template_Plc",
-            "Sprache": "St",
-            "Kategorie": "AutoTests",
-            "Jobs": [
-                "SorceOrdnerErstellen",
-                "TemplateOrdnerKopieren",
-				"DiffOrdnerKopieren",
-                "CmdDateiProjektStarten",
-                "DigitalTwinKopieren",
-                "DigitalTwinStartenBeckhoff"
-            ]
-        },
-        {
-            "Bezeichnung": "Linearachse",
-            "Kommentar": "Übungsplatte",
-            "SoftwareVersion": "TwinCatV3",
-            "OrdnerPlc": "DELTA_TEST_PLC_ST_Linearachse",
-            "OrdnerDigitalTwin": "Linearachse",
-            "OrdnerFactoryIo": "",
-			"OrdnerTemplate": "DELTA_Template_Plc",
-            "Sprache": "St",
-            "Kategorie": "AutoTests",
-            "Jobs": [
-                "SorceOrdnerErstellen",
-                "TemplateOrdnerKopieren",
-				"DiffOrdnerKopieren",
-                "CmdDateiProjektStarten",
-                "DigitalTwinKopieren",
-                "DigitalTwinStartenBeckhoff"
-            ]
-        },
-        {
-            "Bezeichnung": "LAP_2010_1_Kompressoranlage",
-            "Kommentar": "LAP",
-            "SoftwareVersion": "TwinCatV3",
-            "OrdnerPlc": "DELTA_TEST_ST_LAP_2010_1_Kompressoranlage",
-            "OrdnerDigitalTwin": "LAP_2010_1_Kompressoranlage",
-            "OrdnerFactoryIo": "",
-			"OrdnerTemplate": "DELTA_Template_Plc",
-            "Sprache": "St",
-            "Kategorie": "AutoTests",
-            "Jobs": [
-                "SorceOrdnerErstellen",
-                "TemplateOrdnerKopieren",
-				"DiffOrdnerKopieren",
-                "CmdDateiProjektStarten",
-                "DigitalTwinKopieren",
-                "DigitalTwinStartenBeckhoff"
-            ]
-        },
-        {
-            "Bezeichnung": "LAP_2010_2_Transportwagen",
-            "Kommentar": "LAP",
-            "SoftwareVersion": "TwinCatV3",
-            "OrdnerPlc": "DELTA_TEST_ST_LAP_2010_2_Transportwagen",
-            "OrdnerDigitalTwin": "LAP_2010_2_Transportwagen",
-           "OrdnerFactoryIo": "",
-			"OrdnerTemplate": "DELTA_Template_Plc",
-            "Sprache": "St",
-            "Kategorie": "AutoTests",
-            "Jobs": [
-                "SorceOrdnerErstellen",
-                "TemplateOrdnerKopieren",
-				"DiffOrdnerKopieren",
-                "CmdDateiProjektStarten",
-                "DigitalTwinKopieren",
-                "DigitalTwinStartenBeckhoff"
-            ]
-        },
-        {
-            "Bezeichnung": "LAP_2010_3_Ofentuersteuerung",
-            "Kommentar": "LAP",
-            "SoftwareVersion": "TwinCatV3",
-            "OrdnerPlc": "DELTA_TEST_ST_LAP_2010_3_Ofentuersteuerung",
-            "OrdnerDigitalTwin": "LAP_2010_3_Ofentuersteuerung",
-           "OrdnerFactoryIo": "",
-			"OrdnerTemplate": "DELTA_Template_Plc",
-            "Sprache": "St",
-            "Kategorie": "AutoTests",
-            "Jobs": [
-                "SorceOrdnerErstellen",
-                "TemplateOrdnerKopieren",
-				"DiffOrdnerKopieren",
-                "CmdDateiProjektStarten",
-                "DigitalTwinKopieren",
-                "DigitalTwinStartenBeckhoff"
-            ]
-        },
-        {
-            "Bezeichnung": "LAP_2010_4_Abfuellanlage",
-            "Kommentar": "LAP",
-            "SoftwareVersion": "TwinCatV3",
-            "OrdnerPlc": "DELTA_TEST_ST_LAP_2010_4_Abfuellanlage",
-            "OrdnerDigitalTwin": "LAP_2010_4_Abfuellanlage",
-           "OrdnerFactoryIo": "",
-			"OrdnerTemplate": "DELTA_Template_Plc",
-            "Sprache": "St",
-            "Kategorie": "AutoTests",
-            "Jobs": [
-                "SorceOrdnerErstellen",
-                "TemplateOrdnerKopieren",
-				"DiffOrdnerKopieren",
-                "CmdDateiProjektStarten",
-                "DigitalTwinKopieren",
-                "DigitalTwinStartenBeckhoff"
-            ]
-        },
-        {
-            "Bezeichnung": "LAP_2010_5_Pumpensteuerung",
-            "Kommentar": "LAP",
-            "SoftwareVersion": "TwinCatV3",
-            "OrdnerPlc": "DELTA_TEST_ST_LAP_2010_5_Pumpensteuerung",
-            "OrdnerDigitalTwin": "LAP_2010_5_Pumpensteuerung",
-           "OrdnerFactoryIo": "",
-			"OrdnerTemplate": "DELTA_Template_Plc",
-            "Sprache": "St",
-            "Kategorie": "AutoTests",
-            "Jobs": [
-                "SorceOrdnerErstellen",
-                "TemplateOrdnerKopieren",
-				"DiffOrdnerKopieren",
-                "CmdDateiProjektStarten",
-                "DigitalTwinKopieren",
-                "DigitalTwinStartenBeckhoff"
             ]
         }
     ]

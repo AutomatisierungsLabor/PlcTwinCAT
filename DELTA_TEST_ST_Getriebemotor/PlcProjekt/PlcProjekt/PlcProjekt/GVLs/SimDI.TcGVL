@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TcPlcObject Version="1.1.0.1" ProductVersion="3.1.4022.7">
+  <GVL Name="SimDI" Id="{c2d05302-d374-4f85-80dd-41006a3e3277}">
+    <Declaration><![CDATA[{attribute 'qualified_only'}
+VAR_GLOBAL
+	B1 :BOOL; 	// Lichtschranke 0°
+	B2 :BOOL;   // Lichtschranke 45° CCW
+	S1 :BOOL;   // Taster (①) → Schliesser
+	S2 :BOOL;   // Taster (⓪) → Öffner
+	S3 :BOOL;   // Taster (Ⅰ) → Schliesser
+	S4 :BOOL;   // Taster (STOP) → Öffner
+	S5 :BOOL;   // Taster (Ⅱ) → Schliesser
+	S6 :BOOL;   // Taster (←) → Schliesser
+	S7 :BOOL;   // Taster (STOP) → Öffner
+	S8 :BOOL;   // Taster (→) → Schliesser
+	S91:BOOL;   // Not-Halt → Schliesser
+	S92:BOOL;   // Not-Halt → Öffner	
+END_VAR]]></Declaration>
+  </GVL>
+</TcPlcObject>
