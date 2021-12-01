@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TcPlcObject Version="1.1.0.1" ProductVersion="3.1.4024.4">
+  <GVL Name="SimDI" Id="{c2d05302-d374-4f85-80dd-41006a3e3277}">
+    <Declaration><![CDATA[{attribute 'qualified_only'}
+VAR_GLOBAL	
+	B1 AT %I*: BOOL; 	// Störung "Motor übersynchron"
+	F1 AT %I*: BOOL;	// Thermorelais langsame Drehzahl
+	F2 AT %I*: BOOL;	// Thermorelais schnelle Drehzahl
+	S0 AT %I*: BOOL;	// Taster ( 0 )
+	S1 AT %I*: BOOL;	// Taster ( I )
+	S2 AT %I*: BOOL;	// Taster ( II )
+	S3 AT %I*: BOOL;	// Not-Halt
+	S4 AT %I*: BOOL;	// Störung quittieren
+END_VAR]]></Declaration>
+  </GVL>
+</TcPlcObject>

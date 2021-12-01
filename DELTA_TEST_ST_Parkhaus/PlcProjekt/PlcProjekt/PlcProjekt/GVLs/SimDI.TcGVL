@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TcPlcObject Version="1.1.0.1" ProductVersion="3.1.4024.4">
+  <GVL Name="SimDI" Id="{c2d05302-d374-4f85-80dd-41006a3e3277}">
+    <Declaration><![CDATA[{attribute 'qualified_only'}
+VAR_GLOBAL	
+	PS1 AT %I*: BOOL; 	// Parkplätze Spalte 1
+	PS2 AT %I*: BOOL; 	// Parkplätze Spalte 2
+	PS3 AT %I*: BOOL; 	// Parkplätze Spalte 3
+	PS4 AT %I*: BOOL; 	// Parkplätze Spalte 4
+	PS5 AT %I*: BOOL; 	// Parkplätze Spalte 5
+	PS6 AT %I*: BOOL; 	// Parkplätze Spalte 6
+	PS7 AT %I*: BOOL; 	// Parkplätze Spalte 7
+	PS8 AT %I*: BOOL; 	// Parkplätze Spalte 8
+END_VAR]]></Declaration>
+  </GVL>
+</TcPlcObject>

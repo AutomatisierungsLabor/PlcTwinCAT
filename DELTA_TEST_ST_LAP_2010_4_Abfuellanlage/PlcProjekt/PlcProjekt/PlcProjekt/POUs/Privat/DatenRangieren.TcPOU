@@ -10,18 +10,33 @@ END_VAR
       <ST><![CDATA[VersionsInfo.Ver := MAXSTRING_TO_BYTEARR(VersionsText);
 
 IF VersionsInfo.Befehle = 16#00 THEN	// lokale Ein- und Ausgänge verwenden
-
+	SimDI.B1 := BitLesen(Plc_dSub.DI_LowByte,0);
+	SimDI.B2 := BitLesen(Plc_dSub.DI_LowByte,1);
+	SimDI.S1 := BitLesen(Plc_dSub.DI_LowByte,2);
+	SimDI.S2 := BitLesen(Plc_dSub.DI_LowByte,3);
+		
+	Plc_dSub.DQ_LowByte := AlleBitSetzen(	SimDa.K1,
+											SimDa.K2,
+											SimDa.P1,
+											SimDa.Q1,
+											FALSE,
+											FALSE,	
+											FALSE,										
+											FALSE);	
 ELSE	// Simulation (Digital Twin) verwenden
 	SimDI.B1 := BitLesen(DigInput.DI[0],0);
 	SimDI.B2 := BitLesen(DigInput.DI[0],1);
 	SimDI.S1 := BitLesen(DigInput.DI[0],2);
 	SimDI.S2 := BitLesen(DigInput.DI[0],3);
 	
-	DigOutput.DA[0] := AlleBitSetzen(	SimDa.K1,	
-										SimDa.K2,	
+	DigOutput.DA[0] := AlleBitSetzen(	SimDa.K1,
+										SimDa.K2,
 										SimDa.P1,
 										SimDa.Q1,
-										FALSE, FALSE,  FALSE, FALSE);
+										FALSE,	
+										FALSE,	
+										FALSE,										
+										FALSE);	
 END_IF]]></ST>
     </Implementation>
   </POU>

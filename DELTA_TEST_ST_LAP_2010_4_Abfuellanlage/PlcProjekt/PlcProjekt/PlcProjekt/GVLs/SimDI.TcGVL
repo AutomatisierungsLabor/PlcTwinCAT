@@ -3,10 +3,10 @@
   <GVL Name="SimDI" Id="{c2d05302-d374-4f85-80dd-41006a3e3277}">
     <Declaration><![CDATA[{attribute 'qualified_only'}
 VAR_GLOBAL
-	B1: BOOL; // Füllstand
-	B2: BOOL;     // Position Dose
-	S1: BOOL;     // Taster Reset
-	S2: BOOL;    // Taster Start
+	B1: BOOL; 	// Füllstand
+	B2: BOOL;   // Position Dose
+	S1: BOOL;   // Taster Reset
+	S2: BOOL;   // Taster Start
 END_VAR]]></Declaration>
   </GVL>
 </TcPlcObject>

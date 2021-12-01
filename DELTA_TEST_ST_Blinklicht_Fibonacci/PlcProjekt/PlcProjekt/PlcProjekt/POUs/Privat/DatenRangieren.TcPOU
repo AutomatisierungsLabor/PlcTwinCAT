@@ -1,0 +1,37 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TcPlcObject Version="1.1.0.1" ProductVersion="3.1.4024.4">
+  <POU Name="DatenRangieren" Id="{ad49a684-d9e6-4dba-bece-08745f191ac1}" SpecialFunc="None">
+    <Declaration><![CDATA[PROGRAM DatenRangieren
+VAR	
+	VersionsText: STRING := 'Labor Linearachse V2.0';
+END_VAR
+]]></Declaration>
+    <Implementation>
+      <ST><![CDATA[VersionsInfo.Ver := MAXSTRING_TO_BYTEARR(VersionsText);
+
+IF VersionsInfo.Befehle = 16#00 THEN	// lokale Ein- und Ausgänge verwenden
+	SimDI.S1 := BitLesen(Plc_dSub.DI_LowByte,0);
+	
+	Plc_dSub.DQ_LowByte := AlleBitSetzen(	SimDa.P1,
+											FALSE,
+											FALSE,
+											FALSE,
+											FALSE,	
+											FALSE,	
+											FALSE,										
+											FALSE);	
+ELSE	// Simulation (Digital Twin) verwenden
+	SimDI.S1 := BitLesen(DigInput.DI[0],0);
+	
+	DigOutput.DA[0] := AlleBitSetzen(	SimDa.P1,
+										FALSE,
+										FALSE,
+										FALSE,
+										FALSE,	
+										FALSE,	
+										FALSE,										
+										FALSE);	
+END_IF]]></ST>
+    </Implementation>
+  </POU>
+</TcPlcObject>
