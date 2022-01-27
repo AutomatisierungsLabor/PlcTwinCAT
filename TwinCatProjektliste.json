@@ -11,10 +11,9 @@
             "Sprache": "St",
             "Kategorie": "AutoTests",
             "Jobs": [
-                "SorceOrdnerErstellen",
                 "TemplateOrdnerKopieren",
                 "DiffOrdnerKopieren",
-                "CmdDateiProjektStarten",
+                "ProjektStarten",
                 "DigitalTwinKopieren",
                 "DigitalTwinStarten"
             ]
@@ -30,10 +29,9 @@
             "Sprache": "St",
             "Kategorie": "AutoTests",
             "Jobs": [
-                "SorceOrdnerErstellen",
                 "TemplateOrdnerKopieren",
                 "DiffOrdnerKopieren",
-                "CmdDateiProjektStarten",
+                "ProjektStarten",
                 "DigitalTwinKopieren",
                 "DigitalTwinStarten"
             ]
@@ -49,10 +47,9 @@
             "Sprache": "St",
             "Kategorie": "AutoTests",
             "Jobs": [
-                "SorceOrdnerErstellen",
                 "TemplateOrdnerKopieren",
                 "DiffOrdnerKopieren",
-                "CmdDateiProjektStarten"
+                "ProjektStarten"
             ]
         },
         {
@@ -66,10 +63,9 @@
             "Sprache": "St",
             "Kategorie": "AutoTests",
             "Jobs": [
-                "SorceOrdnerErstellen",
                 "TemplateOrdnerKopieren",
                 "DiffOrdnerKopieren",
-                "CmdDateiProjektStarten"
+                "ProjektStarten"
             ]
         },
         {
@@ -83,10 +79,9 @@
             "Sprache": "St",
             "Kategorie": "AutoTests",
             "Jobs": [
-                "SorceOrdnerErstellen",
                 "TemplateOrdnerKopieren",
                 "DiffOrdnerKopieren",
-                "CmdDateiProjektStarten"
+                "ProjektStarten"
             ]
         },
         {
@@ -100,10 +95,9 @@
             "Sprache": "St",
             "Kategorie": "AutoTests",
             "Jobs": [
-                "SorceOrdnerErstellen",
                 "TemplateOrdnerKopieren",
                 "DiffOrdnerKopieren",
-                "CmdDateiProjektStarten",
+                "ProjektStarten",
                 "DigitalTwinKopieren",
                 "DigitalTwinStarten"
             ]
@@ -119,10 +113,9 @@
             "Sprache": "St",
             "Kategorie": "AutoTests",
             "Jobs": [
-                "SorceOrdnerErstellen",
                 "TemplateOrdnerKopieren",
                 "DiffOrdnerKopieren",
-                "CmdDateiProjektStarten",
+                "ProjektStarten",
                 "DigitalTwinKopieren",
                 "DigitalTwinStarten"
             ]
@@ -138,10 +131,9 @@
             "Sprache": "St",
             "Kategorie": "AutoTests",
             "Jobs": [
-                "SorceOrdnerErstellen",
                 "TemplateOrdnerKopieren",
                 "DiffOrdnerKopieren",
-                "CmdDateiProjektStarten",
+                "ProjektStarten",
                 "DigitalTwinKopieren",
                 "DigitalTwinStarten"
             ]
@@ -157,10 +149,9 @@
             "Sprache": "St",
             "Kategorie": "AutoTests",
             "Jobs": [
-                "SorceOrdnerErstellen",
                 "TemplateOrdnerKopieren",
                 "DiffOrdnerKopieren",
-                "CmdDateiProjektStarten",
+                "ProjektStarten",
                 "DigitalTwinKopieren",
                 "DigitalTwinStarten"
             ]
@@ -176,10 +167,9 @@
             "Sprache": "St",
             "Kategorie": "AutoTests",
             "Jobs": [
-                "SorceOrdnerErstellen",
                 "TemplateOrdnerKopieren",
                 "DiffOrdnerKopieren",
-                "CmdDateiProjektStarten",
+                "ProjektStarten",
                 "DigitalTwinKopieren",
                 "DigitalTwinStarten"
             ]
@@ -195,10 +185,9 @@
             "Sprache": "St",
             "Kategorie": "AutoTests",
             "Jobs": [
-                "SorceOrdnerErstellen",
                 "TemplateOrdnerKopieren",
                 "DiffOrdnerKopieren",
-                "CmdDateiProjektStarten",
+                "ProjektStarten",
                 "DigitalTwinKopieren",
                 "DigitalTwinStarten"
             ]
@@ -214,10 +203,9 @@
             "Sprache": "St",
             "Kategorie": "AutoTests",
             "Jobs": [
-                "SorceOrdnerErstellen",
                 "TemplateOrdnerKopieren",
                 "DiffOrdnerKopieren",
-                "CmdDateiProjektStarten",
+                "ProjektStarten",
                 "DigitalTwinKopieren",
                 "DigitalTwinStarten"
             ]
@@ -233,10 +221,9 @@
             "Sprache": "St",
             "Kategorie": "AutoTests",
             "Jobs": [
-                "SorceOrdnerErstellen",
                 "TemplateOrdnerKopieren",
                 "DiffOrdnerKopieren",
-                "CmdDateiProjektStarten",
+                "ProjektStarten",
                 "DigitalTwinKopieren",
                 "DigitalTwinStarten"
             ]
@@ -252,10 +239,9 @@
             "Sprache": "St",
             "Kategorie": "AutoTests",
             "Jobs": [
-                "SorceOrdnerErstellen",
                 "TemplateOrdnerKopieren",
                 "DiffOrdnerKopieren",
-                "CmdDateiProjektStarten",
+                "ProjektStarten",
                 "DigitalTwinKopieren",
                 "DigitalTwinStarten"
             ]
@@ -271,10 +257,9 @@
             "Sprache": "St",
             "Kategorie": "AutoTests",
             "Jobs": [
-                "SorceOrdnerErstellen",
                 "TemplateOrdnerKopieren",
                 "DiffOrdnerKopieren",
-                "CmdDateiProjektStarten",
+                "ProjektStarten",
                 "DigitalTwinKopieren",
                 "DigitalTwinStarten"
             ]
@@ -290,10 +275,9 @@
             "Sprache": "St",
             "Kategorie": "AutoTests",
             "Jobs": [
-                "SorceOrdnerErstellen",
                 "TemplateOrdnerKopieren",
                 "DiffOrdnerKopieren",
-                "CmdDateiProjektStarten",
+                "ProjektStarten",
                 "DigitalTwinKopieren",
                 "DigitalTwinStarten"
             ]
@@ -309,10 +293,9 @@
             "Sprache": "St",
             "Kategorie": "Visu",
             "Jobs": [
-                "SorceOrdnerErstellen",
                 "TemplateOrdnerKopieren",
                 "DiffOrdnerKopieren",
-                "CmdDateiProjektStarten"
+                "ProjektStarten"
             ]
         }
     ]
