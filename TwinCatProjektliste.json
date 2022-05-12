@@ -129,6 +129,8 @@
                 },
                 {
                     "BausteinId": "6",
+                    "PrefixH1": "",
+                    "PrefixH2": "",
                     "VorbereitungId": "600",
                     "Test": "4.2",
                     "Kommentar": "Siemens - Kata - Hardware",
