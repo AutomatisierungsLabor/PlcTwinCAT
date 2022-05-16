@@ -52,7 +52,7 @@
         },
         {
             "Bezeichnung": "DigitalTwin",
-            "Kommentar": "Blinklicht Fibonacci",
+            "Kommentar": "Fibonacci",
             "ProjektDatei": "PlcProjekt.sln",
             "SoftwareVersion": "TwinCatV3",
             "ProgrammDigitalTwin": "DtFibonacci.exe",
