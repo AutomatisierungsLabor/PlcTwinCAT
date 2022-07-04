@@ -1,0 +1,42 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TcPlcObject Version="1.1.0.1" ProductVersion="3.1.4024.10">
+  <POU Name="EinProgramm" Id="{40c4f910-067b-4058-9f04-990921b5a152}" SpecialFunc="None">
+    <Declaration><![CDATA[PROGRAM EinProgramm
+VAR
+	Timer1: TON;
+	Timer2: TON;
+END_VAR
+]]></Declaration>
+    <Implementation>
+      <ST><![CDATA[DaDi.P1:=DaDi.B1;
+DaDi.P2:=DaDi.B2;
+DaDi.P3:=DaDi.B3;
+DaDi.P4:=DaDi.B4;
+(*
+DaDi.P5:=DaDi.B5;
+DaDi.P6:=DaDi.B6;
+DaDi.P7:=DaDi.B7;
+DaDi.P8:=DaDi.B8;
+*)
+Timer1(IN:=NOT Timer2.Q, Pt:=T#200MS);
+Timer2(IN:= Timer1.Q, PT:= T#200MS);
+
+DaDi.P7:= NOT Timer1.Q;
+DaDi.P8:= Timer1.Q;]]></ST>
+    </Implementation>
+    <LineIds Name="EinProgramm">
+      <LineId Id="5" Count="0" />
+      <LineId Id="8" Count="1" />
+      <LineId Id="7" Count="0" />
+      <LineId Id="6" Count="0" />
+      <LineId Id="20" Count="0" />
+      <LineId Id="10" Count="2" />
+      <LineId Id="19" Count="0" />
+      <LineId Id="29" Count="0" />
+      <LineId Id="22" Count="0" />
+      <LineId Id="32" Count="0" />
+      <LineId Id="31" Count="0" />
+      <LineId Id="30" Count="0" />
+    </LineIds>
+  </POU>
+</TcPlcObject>

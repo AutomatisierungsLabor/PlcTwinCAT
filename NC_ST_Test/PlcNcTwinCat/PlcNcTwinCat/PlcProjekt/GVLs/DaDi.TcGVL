@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TcPlcObject Version="1.1.0.1" ProductVersion="3.1.4024.10">
+  <GVL Name="DaDi" Id="{6ea1a9a4-86f9-405d-a794-cb023040f4b7}">
+    <Declaration><![CDATA[{attribute 'qualified_only'}
+VAR_GLOBAL
+	B1 AT %I*: BOOL;
+	B2 AT %I*: BOOL;
+	B3 AT %I*: BOOL;
+	B4 AT %I*: BOOL;
+	B5 AT %I*: BOOL;
+	B6 AT %I*: BOOL;
+	B7 AT %I*: BOOL;
+	B8 AT %I*: BOOL;
+
+	P1 AT %Q*: BOOL;
+	P2 AT %Q*: BOOL;
+	P3 AT %Q*: BOOL;
+	P4 AT %Q*: BOOL;
+	P5 AT %Q*: BOOL;
+	P6 AT %Q*: BOOL;
+	P7 AT %Q*: BOOL;
+	P8 AT %Q*: BOOL;	
+END_VAR]]></Declaration>
+  </GVL>
+</TcPlcObject>
