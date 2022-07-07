@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TcPlcObject Version="1.1.0.1" ProductVersion="3.1.4024.5">
+  <POU Name="MeinProgramm" Id="{35e6b61e-d309-4819-ad74-2516ed18df2b}" SpecialFunc="None">
+    <Declaration><![CDATA[PROGRAM MeinProgramm
+VAR
+	T1: ton;
+	T2: ton;
+END_VAR
+]]></Declaration>
+    <Implementation>
+      <ST><![CDATA[T1(IN:=NOT t2.Q, pt:=T#1S);
+T2(in:=t1.Q,pt:=T#1S);
+
+DaDi.P1:= T1.Q;
+
+	]]></ST>
+    </Implementation>
+    <LineIds Name="MeinProgramm">
+      <LineId Id="5" Count="0" />
+      <LineId Id="29" Count="0" />
+      <LineId Id="31" Count="0" />
+      <LineId Id="30" Count="0" />
+      <LineId Id="32" Count="0" />
+      <LineId Id="28" Count="0" />
+    </LineIds>
+  </POU>
+</TcPlcObject>

@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TcPlcObject Version="1.1.0.1" ProductVersion="3.1.4024.5">
+  <GVL Name="DaDi" Id="{c388343a-b9ef-4d32-83c4-e743b8cb135c}">
+    <Declaration><![CDATA[{attribute 'qualified_only'}
+VAR_GLOBAL
+	S1 AT %i*: BOOL;
+	P1 AT %q*: BOOL;
+END_VAR]]></Declaration>
+  </GVL>
+</TcPlcObject>
